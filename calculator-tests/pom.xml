@@ -13,6 +13,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>ru.kurau.exp</groupId>
+            <artifactId>calculator-client</artifactId>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>

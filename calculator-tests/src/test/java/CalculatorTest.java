@@ -6,11 +6,11 @@ import org.junit.Test;
  */
 public class CalculatorTest {
 
-    private CalculatorClient calculator;
+    private CalculatorClient calculator = new CalculatorClient();
 
     @Test
     public void shouldAddTwoNumbers() {
-
+        int result = calculator.adding(1, 2);
     }
 
 }
