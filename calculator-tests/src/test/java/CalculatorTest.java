@@ -1,4 +1,6 @@
 
+import org.junit.Test;
+
 /**
  * @author kurau (Yuri Kalinin)
  */
