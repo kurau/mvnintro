@@ -6,8 +6,11 @@ import org.junit.Test;
  */
 public class CalculatorTest {
 
+    private CalculatorClient calculator;
+
     @Test
     public void shouldAddTwoNumbers() {
+
     }
 
 }
