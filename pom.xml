@@ -16,6 +16,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>ru.kurau.exp</groupId>
+                <artifactId>calculator-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.12</version>
