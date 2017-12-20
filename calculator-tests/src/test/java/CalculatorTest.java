@@ -1,6 +1,8 @@
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertTrue;
+
 /**
  * @author kurau (Yuri Kalinin)
  */
@@ -11,6 +13,7 @@ public class CalculatorTest {
     @Test
     public void shouldAddTwoNumbers() {
         int result = calculator.adding(1, 2);
+        assertTrue("Ожидали другой результат", result==4);
     }
 
 }
