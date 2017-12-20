@@ -1,6 +1,8 @@
 
 import org.junit.Test;
 
+import static org.hamcrest.Matchers.equalTo;
+import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -13,7 +15,7 @@ public class CalculatorTest {
     @Test
     public void shouldAddTwoNumbers() {
         int result = calculator.adding(1, 2);
-        assertTrue("Ожидали другой результат", result==4);
+        assertThat("Ожидали другой результат", result, equalTo(4));
     }
 
 }
